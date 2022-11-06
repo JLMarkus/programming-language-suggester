@@ -13,9 +13,52 @@
 <body>
   <div>
     <h1>Programming Language Suggester</h1>
+    <form>
+      <div class="form-group">
+        <div>
+          <h2>What is your name?</h2>
+          <label for="nameInput">Name:</label>
+          <input type="text" name="nameInput" id="nameInput" placeholder="Enter your first name">
+        </div>
+        <div>
+          <h2 class="question-heading">Does pineapple go on pizza?</h2>
+          <h4>('yes' or 'absolutely')</h4>
+          <label for="toppingInput">Type your answer here:</label>
+          <input text="text" name="toppingInput" id="toppingInput">
+        </div>
+        <div>
+          <h2 class="question-heading">Cats or dogs?</h2>
+          <h4>('cats' or 'dogs')</h4>
+          <label for="animalInput">Type your answer here:</label>
+          <input text="text" name="animalInput" id="animalInput">
+        </div>
+        <div>
+          <h2 class="question-heading">Do you like piña coladas?</h2>
+          <h4>('yes' or 'no')</h4>
+          <label for="drinkInput">Type your answer here:</label>
+          <input text="text" name="drinkInput" id="drinkInput">
+        </div>
+        <div>
+          <h2 class="question-heading">What does the fox say?</h2>
+          <h4>('fox things' or 'nobody knows')</h4>
+          <label for="foxInput">Type your answer here:</label>
+          <input text="text" name="foxInput" id="foxInput">
+        </div>
+        <div>
+          <h2 class="question-heading">Who let the dogs out?</h2>
+          <h4>('Baha Men' or 'me')</h4>
+          <label for="dogInput">Type your answer here:</label>
+          <input text="text" name="dogInput" id="dogInput">
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="button" id="resetBtn">Reset Form</button>
+      </div>
+    </form>
+
+    <div id="results"></div>
 
   </div>
-
 </body>
 
 </html>
